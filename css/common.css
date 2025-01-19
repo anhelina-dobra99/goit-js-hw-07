@@ -53,3 +53,19 @@ li {
   letter-spacing: 0.04em;
   color: #2e2f42;
 }
+/*task-2*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+  justify-content: center;
+}
+.gallery li {
+  flex-basis: calc(100% / 3 - 48px);
+}
+.gallery img {
+  display: block;
+  width: 100%;
+  min-height: 300px;
+  object-fit: cover;
+}
