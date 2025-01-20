@@ -130,3 +130,66 @@ ul li {
 .login-btn:hover {
   background-color: #6c8cff;
 }
+/*task-5*/
+.change-color {
+  background-color: #4e75ff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+/*task-6*/
+#controls {
+  display: flex;
+  gap: 16px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  margin-bottom: 36px;
+}
+.number-box {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 50px;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  color: #2e2f42;
+}
+.button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.create {
+  background-color: #4e75ff;
+}
+.create:hover {
+  background-color: #6c8cff;
+}
+.destroy {
+  background-color: #ff4e4e;
+}
+.destroy:hover {
+  background-color: #ff7070;
+}
+#boxes {
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  padding: 32px;
+  display: flex;
+  gap: 44px;
+  flex-wrap: wrap;
+}
