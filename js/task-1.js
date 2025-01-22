@@ -3,12 +3,11 @@ function countCategories() {
     return `Number of categories: ${ categories.length}`;
 }
 
-const allCategories = document.querySelectorAll(".item");
 function getCategoryInfo() {
     const categoryInfo = [];
-    allCategories.forEach(category => {
-        const categoryName = category.querySelector(".category-name").textContent;
-        const items = category.querySelectorAll(".item li").length;
+    categories.forEach(category => {
+        const categoryName = category.querySelector("h2").textContent;
+        const items = category.querySelectorAll("ul > li").length;
         categoryInfo.push(`Category: ${categoryName}\nElements: ${items}\n`);
     });
      return categoryInfo.join("");
